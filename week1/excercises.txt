@@ -1,0 +1,19 @@
+Excercise-1
+Leap years occur according to the following formula: a leap year is divisible by four, but not by one hundred, unless it is divisible by four hundred.
+For example, 1992, 1996, and 2000 are leap years, but 1993 and 1900 are not. The next leap year that falls on a century will be 2400.
+
+Excercise-2
+Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. On weekdays, the alarm should be at "7:00" and at weekends it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".
+alarm_clock(1, False) -> '7:00'
+alarm_clock(6, False) -> '10:00'
+alarm_clock(1, True) -> '10:00'
+alarm_clock(6, True) -> 'OFF' 
+
+Excercise-3
+Write a function that returns the n-th fibonacci number!
+fibonacci(0) -> 0 
+fibonacci(1) -> 1 
+fibonacci(2) -> 1 
+fibonacci(3) -> 2 
+...
+fibonacci(n) -> fibonacci(n-2) + fibonacci(n-1)
